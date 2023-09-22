@@ -1,0 +1,18 @@
+{
+  "test_page": "test_index.mustache",
+  "framework": "mocha",
+  "watch_files": [
+    "tmp/**/*.js"
+  ],
+  "src_files": [
+    "tmp/**/*_test.js"
+  ],
+  "on_start": "make babel",
+  "on_exit": "rm -rf tmp",
+  "launch_in_dev": [
+    "PhantomJS"
+  ],
+  "launch_in_ci": [
+    "PhantomJS"
+  ]
+}

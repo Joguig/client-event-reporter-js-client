@@ -1,0 +1,14 @@
+{
+  "name": "client-event-reporter",
+  "description": "Client Event Reporter JS Client",
+  "main": "src/index.js",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "tmp"
+  ]
+}
